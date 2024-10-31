@@ -136,13 +136,24 @@
     </div>
 </section>
 
-
 <footer class="bg-gray-800 text-white py-4 mt-10">
-    <div class="container mx-auto text-center">
+    <div class="container mx-auto text-center space-y-2">
         <p class="text-sm text-gray-400">© 2024 Sistema de Diário de Classes - Todos os direitos reservados.</p>
         <p class="text-xs text-gray-500">Dica: A regularidade dos registros de aulas facilita o acompanhamento da aprendizagem dos alunos.</p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a href="https://github.com/delacerdaq" target="_blank" class="text-blue-400 hover:text-blue-600 text-sm">
+                GitHub - Ana Lacerda
+            </a>
+            <a href="https://github.com/ababue" target="_blank" class="text-blue-400 hover:text-blue-600 text-sm">
+                GitHub - Gabriel Batista
+            </a>
+            <a href="https://github.com/Yuri-Stiwart1" target="_blank" class="text-blue-400 hover:text-blue-600 text-sm">
+                GitHub - Yuri Stiwart
+            </a>
+        </div>
     </div>
 </footer>
+
 
 <script>
     const carousel = document.getElementById('carousel');
